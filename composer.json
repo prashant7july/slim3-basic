@@ -1,0 +1,20 @@
+{
+    "name": "slim/slim-basic",
+    "description": "A Slim Framework with basic structure",
+    "keywords": ["basicframework", "rest", "router", "slim basic"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prashant Shekher",
+            "email": "prashant7july@gmail.com",
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0",
+        "monolog/monolog": " 1.17"
+    },
+	"scripts": {
+        "start": "php -S 0.0.0.0:1337 -t public public/index.php",
+        "test": "phpunit"
+	}
+}

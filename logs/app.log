@@ -1,0 +1,4 @@
+[2016-10-05 12:24:09] slim-app.INFO: INFO [] {"uid":"2fd98f5"}
+[2016-10-05 12:56:10] slim-app.INFO: INFO [] {"uid":"02511b9"}
+[2016-10-05 12:56:10] slim-app.WARNING: WARNING [] {"uid":"02511b9"}
+[2016-10-05 12:56:10] slim-app.ERROR: ERROR [] {"uid":"02511b9"}
