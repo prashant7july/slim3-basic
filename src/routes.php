@@ -1,8 +1,14 @@
 <?php
-//  Routes
+// 	Routes
+require __DIR__ . '/routes/sample.php';
+require __DIR__ . '/routes/taskapi.php';
+require __DIR__ . '/routes/taskgroupapi.php';
+
+
+/*
 //http://localhost:8000/public/hello/prashant
 $app->get('/hello/{name}', function ($request, $response, $args) {
-    // Sample log message
+	// Sample log message
     $this->logger->info("INFO");
     $this->logger->warning("WARNING");
     $this->logger->error("ERROR");
@@ -13,7 +19,7 @@ $app->get('/hello/{name}', function ($request, $response, $args) {
 
 //http://localhost:8000/public/
 $app->get('/', function($request, $response) {
-    // Sample log message
+	// Sample log message
     $this->logger->info("INFO");
 
     $response->write("Hello world");
@@ -145,3 +151,4 @@ $app->group('/api/v1', function () use ($app) {
     });
  
 });
+*/
